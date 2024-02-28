@@ -1,21 +1,28 @@
 .fd-debug {
     border: 1px solid red;
-   }
+}
     /* Colors */
 
 .odd {
     background-color: #1ABC9C;
-   }
+}
 
 .footer-bottom {
     background-color: #2C3E50;
-   }
+}
+
+   /* img */
+
+   .dimension_avatar {
+    width: 200px;
+    height: 200px;
+}
 
    /* Header */
 
 .nav-link > a:hover{
     color: #1ABC9C;
-   }
+}
 
 #portfolio-nav a.nav-link{
     color: white;
@@ -25,30 +32,48 @@
     color: #1ABC9C;
    }
 
-   /* img */
-
-.dimension_avatar {
-    width: 200px;
-    height: 200px;
-   }
-
    /* 1° section */
 
-   #hero div > h4 {
+#hero div > h4 {
     color: white;
-   }
+}
 
-   #hero div > i {
-    color: white;
-    font-size: 30px;
-   }
-
-   .row_white {
-    width: 20%;
+.row_white {
+    width: 15%;
     height: 0;
     border: 2px solid white;
-   }
+}
 
-   #hero div > h1 {
+.row_black {
+    width: 15%;
+    height: 0;
+    border: 2px solid black;
+}
+
+#hero div h1 > a {
     color: white;
-   }
+    text-decoration: none;
+    font-size: 50px;
+}
+
+   /* 2° section  */
+
+    /* 3°section */
+
+    /* 4° section */
+
+    #contact div > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #contact .container > textarea {
+        width: 100%;
+    }
+
+    /* footer  */
+
+    .fa-twitter:hover, .fa-facebook:hover, .fa-google:hover, .fa-youtube:hover {
+        color: red;
+        cursor: pointer;
+    }
