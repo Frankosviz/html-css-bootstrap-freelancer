@@ -1,22 +1,54 @@
 .fd-debug {
     border: 1px solid red;
    }
+    /* Colors */
 
-   .odd {
+.odd {
     background-color: #1ABC9C;
    }
-   .footer-bottom {
+
+.footer-bottom {
     background-color: #2C3E50;
    }
 
-   .nav-link > a:hover{
+   /* Header */
+
+.nav-link > a:hover{
     color: #1ABC9C;
    }
 
-   #portfolio-nav a.nav-link{
+#portfolio-nav a.nav-link{
     color: white;
    }
 
-   #portfolio-nav a.nav-link:hover{
+#portfolio-nav a.nav-link:hover{
     color: #1ABC9C;
+   }
+
+   /* img */
+
+.dimension_avatar {
+    width: 200px;
+    height: 200px;
+   }
+
+   /* 1° section */
+
+   #hero div > h4 {
+    color: white;
+   }
+
+   #hero div > i {
+    color: white;
+    font-size: 30px;
+   }
+
+   .row_white {
+    width: 20%;
+    height: 0;
+    border: 2px solid white;
+   }
+
+   #hero div > h1 {
+    color: white;
    }
