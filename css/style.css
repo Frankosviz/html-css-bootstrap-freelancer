@@ -1,0 +1,22 @@
+.fd-debug {
+    border: 1px solid red;
+   }
+
+   .odd {
+    background-color: #1ABC9C;
+   }
+   .footer-bottom {
+    background-color: #2C3E50;
+   }
+
+   .nav-link > a:hover{
+    color: #1ABC9C;
+   }
+
+   #portfolio-nav a.nav-link{
+    color: white;
+   }
+
+   #portfolio-nav a.nav-link:hover{
+    color: #1ABC9C;
+   }
